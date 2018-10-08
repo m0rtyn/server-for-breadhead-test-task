@@ -1,0 +1,47 @@
+{
+    "offer1": {
+        "id": 1,
+        "name": "‌Nike EXP-X14 'Black'",
+        "store": "lamoda",
+        "oldPrice": 9490,
+        "newPrice": 4790,
+        "sizesType": "EU",
+        "sizes": ["38", "39.5-40.5", "42.5-43", "43.5-44.5", "45.5-46", "47.5-48"]
+    },
+    "offer2": {
+        "id": 2,
+        "name": "‌Nike EXP-X14 'Shit'",
+        "store": "Lamoda",
+        "oldPrice": 99999,
+        "newPrice": 999,
+        "sizesType": "RU",
+        "sizes": ["41.5-42.5", "89.5-90", "26", "21"]
+    },
+    "offer3": {
+        "id": 3,
+        "name": "‌Nicke Super",
+        "store": "Rynok",
+        "oldPrice": 300,
+        "newPrice": 100,
+        "sizesType": "RU",
+        "sizes": ["41.5-42.5", "89.5-90", "26"]
+    },
+    "offer4": {
+        "id": 4,
+        "name": "‌Eccko",
+        "store": "Moda",
+        "oldPrice": 9999,
+        "newPrice": 500,
+        "sizesType": "RU",
+        "sizes": ["89.5-90", "26", "21"]
+    },
+    "offer5": {
+        "id": 5,
+        "name": "‌Ekin",
+        "store": "Adomal",
+        "oldPrice": 666,
+        "newPrice": 777,
+        "sizesType": "Kz",
+        "sizes": ["41.5-42.5", "26", "21"]
+    }
+}
