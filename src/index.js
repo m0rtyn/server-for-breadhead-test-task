@@ -7,6 +7,8 @@ import initializeDb from './db';
 import middleware from './middleware';
 import api from './api';
 import config from './config.json';
+// import responseJson from './data.json';
+import responseJson from './bigData.json';
 
 let app = express();
 app.server = http.createServer(app);
@@ -28,6 +30,8 @@ initializeDb( db => {
 
 	// internal middleware
 	app.use(middleware({ config, db }));
+
+	app.get('/', (req, res) => res.send(responseJson));
 
 	// api router
 	app.use('/api', api({ config, db }));
